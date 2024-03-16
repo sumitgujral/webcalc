@@ -1,11 +1,45 @@
-body{
+body {
     background-color: #F7F6BB;
 }
-header{
+
+header {
     background-color: #0d4b37;
-    margin: 0vh;
+    height: 135px;
 }
- 
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#homeoptions {
+    width: 550px;
+    height: 90px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #87A922;
+    float: inline-start;
+}
+
+#loginsignupoption {
+    width: 360px;
+    height: 90px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color: #87A922;
+    float: inline-end;
+}
+
+
+a {
+    color: #F7F6BB;
+    text-decoration: none;
+    text-align: center;
+}
+
 /* header > div{
 background-color: #87A922;
 } */
