@@ -34,11 +34,39 @@ body {
 }
 
 
+ #homeoptions , #loginsignupoption{ 
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
 a {
     color: #F7F6BB;
     text-decoration: none;
-    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    flex-direction:column;
+    font-weight: bold;
 }
+
+#tagline{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 40px;
+    background-color: #0d4b37;
+    height: 600px;
+    width: 600px;
+    border-radius: 20% 91% 67% 49% / 13% 78% 38% 100% ;
+}
+#tagline > div{
+    height:400px;
+    width: 400px;
+    border: 50px solid transparent;
+    border-left-color: #87A922;
+   
+}
+
 
 /* header > div{
 background-color: #87A922;
