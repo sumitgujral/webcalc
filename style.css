@@ -52,21 +52,73 @@ a {
     display: flex;
     justify-content:center;
     align-items: center;
-    margin-top: 80px;
-    margin-left: 40px;
+    margin-top: 90px;
+    margin-left: 80px;
     background-color: #0d4b37;
     height: 600px;
     width: 600px;
     border-radius: 20% 91% 67% 49% / 13% 78% 38% 100% ;
 }
-#tagline > div{
-    height:400px;
-    width: 400px;
-    border: 50px solid transparent;
-    border-left-color: #87A922;
-   
+#triangle{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 0;
+    width: 0;
+    border-top: 200px solid transparent;
+    border-bottom: 200px solid transparent;
+    border-left: 350px solid #87A922;
+    margin-left:80px ;
+}
+#triangle>p{
+    width: 200px;
+    height: 200px;
+    margin-right: 510px;
+    margin-top: 40px;
+    color: #F7F6BB;
+    text-decoration: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
 }
 
+
+section {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+#calculator{
+    height: 550px;
+    width: 400px;
+    margin-right: 80px ;
+    margin-top: 40px;
+    background-color: #0d4b37;
+    border-radius: 30px;
+    border: 10px solid transparent;
+}
+
+#screen{
+    height: 100px;
+    width: 320px;
+    margin-left: 40px;
+    margin-top: 35px;
+    background-color: #87A922;
+}
+
+#keypad{
+    height: 350px;
+    width: 320px;
+    margin-left: 40px;
+    margin-top: 35px;
+    background-color: #87A922;
+}
+
+#keypad > div{
+    height: 6px;
+    width: 10px;
+    background-color: #0d4b37;
+}
 
 /* header > div{
 background-color: #87A922;
