@@ -107,6 +107,11 @@ section {
 }
 
 #keypad{
+    display:grid;
+    grid-template-columns: 100px 100px 100px;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    justify-items: center;
     height: 350px;
     width: 320px;
     margin-left: 40px;
@@ -115,10 +120,23 @@ section {
 }
 
 #keypad > div{
-    height: 6px;
-    width: 10px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 35px;
+    width: 75px;
     background-color: #0d4b37;
+    border-radius: 30px;
 }
+
+button{
+    all: unset;
+    color: #F7F6BB;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
 
 /* header > div{
 background-color: #87A922;
