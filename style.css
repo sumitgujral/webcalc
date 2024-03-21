@@ -123,8 +123,8 @@ section {
     display: flex;
     justify-content:center;
     align-items: center;
-    height: 35px;
-    width: 75px;
+    height: 40px;
+    width: 85px;
     background-color: #0d4b37;
     border-radius: 30px;
 }
@@ -134,10 +134,9 @@ button{
     color: #F7F6BB;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 23px;
 }
 
 
-/* header > div{
-background-color: #87A922;
-} */
+
+
